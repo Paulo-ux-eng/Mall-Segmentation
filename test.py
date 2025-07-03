@@ -12,7 +12,7 @@ st.set_page_config(page_title="🧠 Customer Segment Predictor", layout="wide")
 st.title("🧠 Customer Segment Predictor using KMeans")
 
 # Load data directly (no upload)
-csv_path = "C:\\Users\\paulg\\Mall Segmentation\\Mall_Customers.csv"
+csv_path = "Mall_Customers.csv"
 if not os.path.exists(csv_path):
     st.error("❌ 'Mall_Customers.csv' not found in the app directory.")
     st.stop()
